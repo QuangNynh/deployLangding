@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert;
+  font-weight: revert;
+  /* margin: revert; */
+}
+
+ul {
+  list-style-type: disc;
+  margin: revert;
+  padding-left: 2rem;
+}
+
+li {
+  margin: revert;
+}
+
+table {
+  display: table;
+  /* border-collapse: separate; */
+  border-spacing: 2px;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tbody {
+  display: table-row-group;
+}
+
+tr {
+  display: table-row;
+}
+
+th,
+td {
+  display: table-cell;
+  padding: 1px; /* Giá trị mặc định của trình duyệt */
+  vertical-align: inherit;
+}
+
+/* Nếu bạn muốn khôi phục border mặc định */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+@tailwind utilities;
+
+:root {
+  --background: #FAF8F8;
+  --foreground: #171717;
+  
+  /* Thêm các biến màu khác nếu cần */
+  --primary: #CC0000;
+  --primary-hover: #FF0000;
+  --secondary: #2C2C2C;
+  --card-bg: #FFFFFF;
+  --border-color: #D6D6D6;
+}
+
+video {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+.ytp-cued-thumbnail-overlay-image{
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif !important;
+  
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Be Vietnam Pro", sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+@layer utilities {
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 99px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 16px;
+  /* overflow-x: hidden !important; */
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+.shadow-card {
+  box-shadow: 0px 11px 11px 0px #00000005;
+  box-shadow: 0px 25px 15px 0px #00000003;
+  box-shadow: 0px 44px 18px 0px #00000003;
+  box-shadow: 0px 48px 16px 0px #00000003;
+}
+
+.button-scale {
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+  /* filter: blur 0.5 ease; */
+}
+
+.button-scale:hover {
+  transform: scale(1.08);
+
+  .custom-blur {
+    filter: blur(14px);
+  }
+}
+
+.custom-sencondary:hover {
+  background: linear-gradient(to right, #cf2fff, #7684ff);
+  /* Gradient màu */
+  -webkit-background-clip: text;
+  /* Cắt background vào chữ */
+  -webkit-text-fill-color: transparent;
+  /* Làm chữ trong suốt để thấy gradient */
+}
+
+.border-custom:hover {
+  border: 3px solid transparent;
+  background-image: linear-gradient(45deg, #ff7e5f, #feb47b);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.swiper-pagination-bullet {
+  width: 48.87px !important;
+  height: 8px !important;
+  background-color: #ccc;
+  border-radius: 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff0000 !important;
+}
+
+p,
+blockquote {
+  background: transparent !important;
+}
+
+.journey-section-container {
+  padding: 0 48px !important;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.journey-section {
+  background-image: url('/images/journey-bg.png');
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 1000px;
+  position: relative;
+  aspect-ratio: 1344 / 1059;
+  border-radius: 24px;
+}
+
+.section-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.core-principles-section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media (max-width: 1024px) {
+  .journey-section-container {
+    padding: 0 24px !important;
+  }
+
+  .section-container {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .core-principles-section {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .journey-section {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .journey-background-mobile-container {
+    background-image: url('/images/journey-background.svg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-size: 20px !important;
+    border-radius: 24px;
+  }
+
+  .section-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .core-principles-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .journey-background-mobile-container {
+    font-size: 14px !important;
+  }
+}
+
+
+.button-custom {
+  color: white;
+  position: relative;
+  border-radius: 999999999px;
+  padding: 2px;
+
+  .flip-button {
+    position: relative;
+    background: linear-gradient(100.75deg, #FF4D4D 0%, #CC0000 100%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 1s ease;
+    border-radius: 9999999px;
+  }
+
+  .flip-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:white;
+    filter: blur(2px);
+    border-radius: 9999999px;
+
+
+  }
+
+  .flip-button span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .flip-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease;
+    z-index: 0;
+    border-radius: 9999999px;
+
+  }
+}
+
+.button-custom:hover {
+  .flip-button::before {
+    width: 200%;
+    height: 200%;
+    border-radius: 22px;
+
+  }
+
+  .flip-button {
+    color: #f71e1e;
+  }
+
+}
+
+
+@property --angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.button-custom:hover:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from var(--angle), transparent 60%, red);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 999999px;
+  animation: 2.5s custom-spin linear infinite;
+}
+
+.button-custom:hover:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from calc(var(--angle) + 180deg), transparent 60%, red);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 999999999px;
+  animation: 2.5s custom-spin linear infinite;
+}
+.button-custom-no-bg {
+  color: #000000;
+  position: relative;
+  border-radius: 999999999px;
+  padding: 2px;
+  
+}
+.button-custom-no-bg:hover {
+ span{
+  background: #FFFFFF;
+  color: red;
+ }
+  
+}
+
+.button-custom-no-bg:hover:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from var(--angle), transparent 60%, red);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 999999px;
+  animation: 2.5s custom-spin linear infinite;
+}
+.button-custom-no-bg:hover:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from calc(var(--angle) + 180deg), transparent 60%, red);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 999999999px;
+  animation: 2.5s custom-spin linear infinite;
+}
+
+
+@keyframes custom-spin {
+  from {
+    --angle: 0deg;
+  }
+
+  to {
+    --angle: 360deg;
+  }
+}

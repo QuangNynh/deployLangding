@@ -1,0 +1,324 @@
+{
+  "common": {
+    "search": "Search",
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "learn-more": "Learn More",
+    "error": {
+      "server-error": "Server Error",
+      "server-message": "An error occurred on the server side. Please try again later or contact us if the issue persists.",
+      "back-home": "Back to Home",
+      "try-again": "Try Again"
+    },
+    "no-data": "No data displayed",
+    "loading": "Loading...",
+    "loading-more": "Load more"
+  },
+  "layout": {
+    "header": {
+      "menu": {
+        "home": "Home",
+        "about-us": "About Us",
+        "news": {
+          "title": "News",
+          "sub-menu": {
+            "news": "News",
+            "recruitment": "Recruitment"
+          }
+        },
+        "technology": "Technology Strengths",
+        "service-conclusion": {
+          "title": "Services - Solutions",
+          "sub-menu": {
+            "service": "Services & Solutions",
+            "product": "Products"
+          }
+        },
+        "case-study": "Case Study",
+        "contact": "Contact"
+      }
+    },
+    "footer": {
+      "company": "KATECH - VIETNAM TECHNOLOGY AND SERVICES JOINT STOCK COMPANY",
+      "license": "Business Registration Certificate: 0109584032 - Last updated on 07/12/2023",
+      "authority": "Issuing Authority: Business Registration Office - Hanoi Department of Planning and Investment",
+      "links": {
+        "title": "Links",
+        "home": "Home",
+        "about": "About",
+        "services": "Services and Solutions",
+        "products": "Products",
+        "contact": "Contact",
+        "case-study": "Case Study",
+        "news": "News",
+        "recruitment": "Recruitment"
+      },
+      "contact": {
+        "title": "Contact",
+        "address": "Address: No. 24 Nguyen Co Thach Street, Phu Dien Ward, Bac Tu Liem District, Hanoi City, Vietnam",
+        "phone": "Phone Number: 0986742911",
+        "email": "Email: info@katechvn.com"
+      },
+      "copyright": "© 2021 - 2025 KATECH – Vietnam Technology and Services Joint Stock Company. All rights reserved. Privacy Policy."
+    }
+  },
+  "home": {
+    "welcome": "Break Through with Technology, Reach for the Future",
+    "about-section": {
+      "title": "About Katech - Vietnam",
+      "content": "Not just technology, we deliver value <br>Technology solutions for a smarter tomorrow</br>",
+      "card-1-content": "<span class='bg-gradient-to-r from-[#FF4D4D] to-[#FF0000] bg-clip-text text-transparent'>500+</span> Top-tier Team",
+      "card-2-content": "Quality as the Top Priority",
+      "card-3-content": "Comprehensive Service Solutions",
+      "card-4-content": "Maximizing Technological Expertise"
+    },
+    "breakthrough-section": {
+      "title": "Break Through with Digital Transformation",
+      "card-1-content-button": "Government Clients",
+      "card-2-content-button": "Enterprise Clients",
+      "card-3-content-button": "Individual Clients"
+    },
+    "product-section": {
+      "title": "Products",
+      "content": "Konan – An intelligent AI assistant for businesses. Optimizes operational processes, automates tasks, and enhances customer experience.",
+      "button": "Discover Konan"
+    },
+    "stats": {
+      "title": "Impressive Statistics",
+      "projects": "Completed Projects",
+      "satisfaction": "Satisfied Customers",
+      "awards": "Fields of Operation",
+      "countries": "Countries Using Our Services"
+    },
+    "mission-section": {
+      "title": "Mission",
+      "subtitle": "Pioneering Technology, Creating Digital Value",
+      "description": "To become a leading technology company, turning big technological dreams into reality.",
+      "people": {
+        "title": "People",
+        "description": "A youthful, talented, and passionate team"
+      },
+      "culture": {
+        "title": "Culture",
+        "description": "A dynamic, creative, and open working environment"
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "High-quality, world-class, and innovative products and services"
+      }
+    },
+    "featured-news": {
+      "title": "Featured News"
+    }
+  },
+  "about": {
+    "about-us": "About Us",
+    "vision-section": {
+      "title": "Leading technology, creating digital value",
+      "subtitle": "Katech – Vietnam will focus on developing technology in two directions: developing platforms and core technologies, and enhancing customer experience and operational efficiency based on technology."
+    },
+    "journey-section": {
+      "title": "Development Journey",
+      "year": {
+        "2021": "Year 2021:",
+        "2022": "Year 2022:",
+        "2023": "Year 2023:",
+        "2024": "Year 2024:",
+        "2025": "Year 2025:"
+      },
+      "2021": {
+        "title": "Company Founded",
+        "title-1": "Company",
+        "title-2": "Founded",
+        "description": "In 2021, KATECH Technology and Services Joint Stock Company - Vietnam began its strategic entry into the domestic IT market, starting with a technical department of 15 employees."
+      },
+      "2022": {
+        "title": "Continuously exploring new markets",
+        "title-1": "Continuously",
+        "title-2": " exploring new markets",
+        "description": "Continuously exploring new markets, expanding cooperation approaches."
+      },
+      "2023": {
+        "title": "Rapid Growth Driven by Youthful Energy",
+        "title-1": "Rapid Growth",
+        "title-2": "Driven by Youthful Energy",
+        "description": "Sensitivity to the wave of digital transformation currently underway, implementing it correctly into the flow, which is the catalyst for us to reap sweet results."
+      },
+      "2024": {
+        "title": "Accompanying Digital Transformation for a Strong Vietnam",
+        "title-1": "Accompanying",
+        "title-2": "Digital Transformation",
+        "title-3": " for a Strong Vietnam",
+        "description": "Focusing on AI Chatbot investment to concretize strategies and promote growth for businesses. We provide high-quality technology services, affirming our role as a partner in digital transformation and green transformation."
+      },
+      "2025": {
+        "title": "Expanding the Tech Ecosystem. Together in the Digital Era",
+        "title-1": "Expanding the",
+        "title-2": "Technology Ecosystem.",
+        "title-3": "Together in the Digital Era",
+        "description": "Focusing on building and expanding the technology ecosystem, closely connecting software, infrastructure, artificial intelligence and smart data."
+      }
+    },
+    "team-section": {
+      "title": "Expert Team",
+      "description": "The combination of experienced experts and young talents creates a team that is both stable and full of creativity, ready to face any challenges.",
+      "position": {
+        "development-lead": "Development Lead",
+        "science-director": "Science Director",
+        "marketing-lead": "Marketing Lead",
+        "elera-nyx": "Ph.D. Elara Nyx"
+      }
+    },
+    "core-values-section": {
+      "title": "Core Values",
+      "description": "At Katech, we believe in the power of teamwork and sustainable development, in which:",
+      "autonomy": {
+        "title": "Autonomy",
+        "description": "Open culture - Emphasizing the transfer of power, emphasizing the autonomy and responsibility of each individual in the organization."
+      },
+      "connection": {
+        "title": "Connection",
+        "description": "Dynamic working environment, encouraging the exchange of ideas and mutual support. Katech - Vietnam organizes Retro after each project and weekly seminars."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Encouraging creative thinking, constantly searching for new solutions with incentives for staff to learn and improve their skills."
+      },
+      "talent": {
+        "title": "Talent",
+        "description": "Emphasizing the value of gray matter, creating an environment to maximize the talent's potential."
+      }
+    },
+    "core-principles-section": {
+      "independence": "Independence",
+      "responsibility": "Responsibility",
+      "cooperation": "Cooperation"
+    }
+  },
+  "posts": {
+    "title": "List of Articles"
+  },
+  "recruitment": {
+    "title": "Join Our Team with These Positions",
+    "button-card": "View Details",
+    "position": "Position",
+    "workType": "Work Type",
+    "salary": "Salary",
+    "select-all": "All"
+  },
+  "recruitment-detail": {
+    "workType": "Work Type",
+    "experience": "Experience",
+    "salary": "Salary",
+    "position": "Job Position",
+    "deadline": "Deadline",
+    "quantity": "Number of Vacancies"
+  },
+  "contact": {
+    "contact-info": {
+      "chatbot": {
+        "title": "Chatbot Consulting & Implementation",
+        "description": "Support for implementing intelligent AI chatbot applications."
+      },
+      "pricing": {
+        "title": "Partnership & Quotation",
+        "description": "Contact us now for consultation and pricing."
+      },
+      "headquarters": {
+        "title": "Headquarters",
+       "description": "6 th Floor, Golden Field Tower, 24 Nguyen Co Thach Street, Cau Dien Ward, Nam Tu Liem District, Hanoi City, Vietnam.\nEmail: <a href='info@katechvn.com' className='hover:text-[#CC0000] dark:text-white dark:hover:text-[#FF6B6B]'> info@katechvn.com</a>\nHotline: 096 647 9896"
+      }
+    },
+    "form": {
+      "title": "Contact",
+      "description": "Contact Katech today! We are ready to listen and provide the most suitable solutions for you.",
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "email": "Email",
+      "message": "Request Content",
+      "submit": "Submit Request",
+      "selectInterest": "Interesting content",
+      "no-options": "No option"
+    }
+  },
+  "service-solution": {
+    "title": "Digital partnership, shaping the future",
+    "technology-section": {
+      "ai_ml": {
+        "title": "AI & Machine Learning Technology",
+        "description": "Integrating artificial intelligence to analyze data and optimize businesses."
+      },
+      "big_data": {
+        "title": "Big Data Analytics",
+        "description": "Deep data mining to support strategic decision-making."
+      },
+      "multi_platform": {
+        "title": "Multi-Platform Software Development",
+        "description": "Building applications for Web, Mobile, and enterprise systems."
+      },
+      "cloud_it": {
+        "title": "Cloud Computing & IT Infrastructure",
+        "description": "Providing Cloud solutions, security, and optimized operational systems."
+      }
+    },
+    "service-solutions-section":{
+      "title": "Services Solutions"
+    }
+  },
+  "case-study": {
+    "introduce-section": {
+      "title": "How Have Customers Optimized Their Businesses with Katech?",
+      "content": "Konan – An intelligent AI assistant for businesses. Optimizes operational processes, automates tasks, and enhances customer experience.",
+      "button-demo": "Try for Free",
+      "button-contact": "Contact for Consultation"
+    },
+    "customer-section": {
+      "title": "Featured Customers",
+      "card-1": {
+        "title": "THANG LONG CENTRAL CO., LTD",
+        "button": "See more",
+        "content": "Website development for the aviation industry.",
+        "image":"/images/thang-long-en.jpg",
+        "url":"/en/case-study/from-the-skies-to-the-code-high-performance-aviation-websites"
+      },
+      "card-2": {
+        "title": "CMC Consulting Joint Stock Company",
+        "button": "See more",
+        "content": "Development and implementation of SAP software.",
+        "image":"/images/cmc-en.jpg"
+        
+      },
+      "card-3": {
+        "title": "Minh Chau Computer Company",
+        "button": "See more",
+        "content": "Development of access control software.",
+        "image":"/images/minh-chau-en.jpg"
+
+      }
+    },
+    "comment-customer": {
+      "title": "What Our Customers Say"
+    }
+  },
+  "news": {
+    "related-news": {
+      "title": "Related Articles"
+    },
+    "trending-section": {
+      "title": "Trends"
+    },
+    "synthetic-section": {
+      "title": "Overview"
+    }
+  },
+  "page-not-found": {
+    "title": "404 Page Not Found",
+    "description": "The page you are looking for may have been removed, renamed, or is temporarily unavailable.",
+    "button": "Back to Home"
+  },
+  "chat-bot": {
+    "defaultMessage": "Hello there! How can I assist you today? I'm Katech's chatbot, here to answer your questions about our company, services, and products. Ask me anything!",
+    "placeholder-input": "Type your message...",
+    "errorMessage": "Error sending message. Please try again!"
+  }
+}

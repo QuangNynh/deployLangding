@@ -1,0 +1,322 @@
+{
+    "common": {
+        "search": "Tìm kiếm",
+        "vietnamese": "Tiếng Việt",
+        "english": "Tiếng Anh",
+        "learn-more": "Tìm hiểu thêm",
+        "error": {
+            "server-error": "Lỗi máy chủ",
+            "server-message": "Đã xảy ra lỗi từ phía máy chủ. Vui lòng thử lại sau hoặc liên hệ với chúng tôi nếu vấn đề vẫn tiếp diễn.",
+            "back-home": "Về trang chủ",
+            "try-again": "Thử lại"
+        },
+        "no-data":"Không có dữ liệu hiển thị",
+        "loading": "Đang tải...",
+        "load-more": "Xem thêm"
+    },
+
+    "layout": {
+        "header": {
+            "menu": {
+                "home": "Trang chủ",
+                "about-us": "Về chúng tôi",
+                "news": {
+                    "title": "Tin tức",
+                    "sub-menu": {
+                        "news": "Tin tức",
+                        "recruitment": "Tuyển dụng"
+                    }
+                },
+                "technology": "Thế mạnh công nghệ",
+                "service-conclusion": {
+                    "title": "Dịch vụ - giải pháp",
+                    "sub-menu": {
+                        "service": "Dịch vụ & giải pháp",
+                        "product": "Sản phẩm"
+                    }
+                },
+                "case-study": "Case study",
+                "contact": "Liên hệ"
+            }
+        },
+        "footer": {
+            "company": "Công ty Cổ phần Công nghệ và Dịch vụ KATECH – Việt Nam",
+            "license": "Giấy CNĐKKD: 0109584032 - Cập nhật lần cuối vào 12/07/2023",
+            "authority": "Cơ quan cấp: Phòng Đăng ký kinh doanh - Sở Kế hoạch và Đầu tư TP. Hà Nội",
+            "links": {
+                "title": "Liên kết",
+                "home": "Trang chủ",
+                "about": "Giới thiệu",
+                "services": "Dịch vụ và giải pháp",
+                "products": "Sản phẩm",
+                "contact": "Liên hệ",
+                "case-study": "Case study",
+                "news": "Tin tức",
+                "recruitment": "Tuyển dụng"
+            },
+            "contact": {
+                "title": "Liên hệ",
+                "address": "Địa chỉ: Số 24 đường Nguyễn Cơ Thạch, Phường Phú Diễn, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam",
+                "phone": "Số điện thoại: 0986742911",
+                "email": "Thư điện tử: info@katechvn.com"
+            },
+            "copyright": "© 2021 - 2025, Công ty Cổ phần Công nghệ và Dịch vụ KATECH – Việt Nam. Tất cả các quyền được bảo lưu. Chính sách bảo mật thông tin."
+        }
+    },
+    "home": {
+        "welcome": "Bứt phá bằng công nghệ Tương lai vươn tầm",
+        "about-section": {
+            "title": "Về Katech - Việt Nam",
+            "content": "Không chỉ công nghệ, chúng tôi mang lại giá trị <br>Giải pháp công nghệ cho một ngày mai thông minh hơn</br>",
+            "card-1-content": "<span class='bg-gradient-to-r from-[#FF4D4D] to-[#FF0000] bg-clip-text text-transparent'>500+</span> Đội ngũ hàng đầu",
+            "card-2-content": "Chất lượng là ưu tiên hàng đầu",
+            "card-3-content": "Giải pháp dịch vụ toàn diện",
+            "card-4-content": "Tối đa về chất lượng chất xám"
+        },
+        "breakthrough-section": {
+            "title": "Bứt phá với chuyển đổi số",
+            "card-1-content-button": "Khách hàng nhà nước",
+            "card-2-content-button": "Khách hàng doanh nghiệp",
+            "card-3-content-button": "Khách hàng cá nhân"
+        },
+        "product-section": {
+            "button": "Khám phá"
+        },
+        "stats": {
+            "title": "Số liệu ấn tượng",
+            "projects": "Dự án đã hoàn thành",
+            "satisfaction": "Khách hàng hài lòng",
+            "awards": "Lĩnh vực hoạt động",
+            "countries": "Quốc gia sử dụng dịch vụ"
+        },
+        "mission-section": {
+            "title": "Sứ mệnh",
+            "subtitle": "Công nghệ tiên phong, kiến tạo giá trị số",
+            "description": "Trở thành công ty công nghệ hàng đầu hiện thực hóa những giấc mơ công nghệ lớn.",
+            "people": {
+                "title": "Con người",
+                "description": "Đội ngũ nhân sự trẻ trung, tài năng và đầy nhiệt huyết"
+            },
+            "culture": {
+                "title": "Văn hóa",
+                "description": "Môi trường làm việc năng động, sáng tạo và cởi mở"
+            },
+            "quality": {
+                "title": "Chất lượng",
+                "description": "Sản phẩm và dịch vụ chất lượng cao, đẳng cấp và đột phá"
+            }
+        },
+        "featured-news": {
+            "title": "Tin nổi bật"
+        }
+    },
+    "about": {
+        "about-us": "Về chúng tôi",
+        "vision-section": {
+            "title": "Công nghệ tiên phong, kiến tạo giá trị số",
+            "subtitle": "Katech – Việt Nam sẽ tập trung phát triển công nghệ theo hai hướng là phát triển các nền tảng, công nghệ lõi và gia tăng trải nghiệm khách hàng, hiệu quả vận hành dựa trên công nghệ."
+        },
+        "journey-section": {
+            "title": "Hành trình phát triển",
+            "year": {
+                "2021": "Năm 2021:",
+                "2022": "Năm 2022:",
+                "2023": "Năm 2023:",
+                "2024": "Năm 2024:",
+                "2025": "Năm 2025:"
+            },
+            "2021": {
+                "title": "Thành lập công ty",
+                "title-1": "Thành lập",
+                "title-2": "công ty",
+                "description": "Năm 2021, Công ty Cổ phần Công nghệ và Dịch vụ Katech - Việt Nam bắt đầu chiến lược len lỏi vào thị trường CNTT trong nước với nền móng đầu tiên là bộ phận kỹ thuật gồm 15 nhân viên."
+            },
+            "2022": {
+                "title": "Liên tục tìm kiếm thị trường mới",
+                "title-1": "Liên tục tìm kiếm thị",
+                "title-2": "trường mới",
+                "description": "Liên tục tìm kiếm thị trường mới, mở rộng phương án hợp tác"
+            },
+            "2023": {
+                "title": "Dấu ấn phát triển thần tốc từ sức trẻ",
+                "title-1": "Dấu ấn phát triển",
+                "title-2": "thần tốc từ sức trẻ",
+                "description": "Nhạy cảm giữa làn sóng chuyển đổi số hiện đang diễn ra nhanh chóng và triển khai đi đúng vào dòng chảy, đó chính là chất xúc tác để chúng tôi gặt hái được những thành quả ngọt ngào."
+            },
+            "2024": {
+                "title": "Đồng hành thuộc đẩy chuyển đổi số vì một Việt Nam hùng cường",
+                "title-1": "Đồng hành thúc đẩy",
+                "title-2": "chuyển đổi số vì một Việt Nam",
+                "title-3": "hùng cường",
+                "description": "Tập trung vào đầu tư Chatbot AI để cụ thể hóa chiến lược và thúc đẩy tăng trưởng cho doanh nghiệp. Chúng tôi cung cấp dịch vụ công nghệ chất lượng cao, khẳng định vai trò đối tác tư vấn chuyển đổi số và chuyển đổi xanh."
+            },
+            "2025": {
+                "title": "Mở rộng hệ sinh thái công nghệ. Cùng vươn xa trong kỷ nguyên số",
+                "title-1": "Mở rộng hệ sinh thái",
+                "title-2": "công nghệ. Cùng vươn xa trong",
+                "title-3": "kỷ nguyên số",
+                "description": "Tập trung xây dựng và mở rộng hệ sinh thái công nghệ, kết nối chặt chẽ giữa phần mềm, hạ tầng, trí tuệ nhân tạo và dữ liệu thông minh."
+            }
+        },
+        "team-section": {
+            "title": "Đội ngũ chuyên gia",
+            "description": "Sự kết hợp của những chuyên gia giàu kinh nghiệm và những tài năng trẻ tạo nên một đội ngũ vừa vững vàng, vừa đầy sức sáng tạo, sẵn sàng đương đầu với mọi thử thách.",
+            "position": {
+                "development-lead": "Trưởng Nhóm phát triển",
+                "science-director": "Giám đốc khoa học",
+                "marketing-lead": "Trưởng Phòng Marketing",
+                "elera-nyx": "Tiến sĩ Elara Nyx"
+            }
+        },
+        "core-values-section": {
+            "title": "Những giá trị cốt lõi",
+            "description": "Tại Katech, chúng tôi tin vào sức mạnh của tập thể và sự phát triển bền vững, trong đó: ",
+            "autonomy": {
+                "title": "Tự chủ (Autonomy)",
+                "description": "Văn hóa cởi mở - Nhấn mạnh sự trao quyền, đề cao tính chủ động và trách nhiệm của mỗi cá nhân trong tổ chức."
+            },
+            "connection": {
+                "title": "Kết nối (Connection)",
+                "description": "Môi trường làm việc năng động, khuyến khích trao đổi ý tưởng và hỗ trợ lẫn nhau. Katech - Việt Nam tổ chức Retro sau mỗi dự án và Seminar hàng tuần."
+            },
+            "innovation": {
+                "title": "Đột phá (Innovation)",
+                "description": "Khuyến khích tư duy sáng tạo, không ngừng tìm kiếm giải pháp mới với các chi phí khuyến khích nhân sự học tập nâng cao chuyên môn và kỹ năng mới."
+            },
+            "talent": {
+                "title": "Chất lượng (Talent)",
+                "description": "Đề cao giá trị chất xám, tạo môi trường để nhân tài phát huy tối đa năng lực."
+            }
+        },
+        "core-principles-section": {
+            "independence": "Độc lập",
+            "responsibility": "Trách nhiệm",
+            "cooperation": "Hợp tác"
+        }
+    },
+    "posts": {
+        "title": "Danh sách bài viết"
+    },
+    "recruitment": {
+        "title": "Tham gia đội ngũ của chúng tôi với các vị trí",
+        "button-card": "Xem chi tiết",
+        "position": "Vị trí",
+        "workType": "Hình thức làm việc",
+        "salary": "Mức lương",
+        "select-all": "Tất cả"
+    },
+    "recruitment-detail": {
+        "workType": "Hình thức làm việc",
+        "experience": "Kinh nghiệm",
+        "salary": "Mức lương",
+        "position": "Vị trí làm việc",
+        "deadline": "Hạn chót",
+        "quantity": "Số lượng tuyển"
+    },
+    "contact": {
+        "contact-info": {
+            "chatbot": {
+                "title": "Tư vấn & Triển khai Chatbot",
+                "description": "Hỗ trợ ứng dụng chatbot AI thông minh."
+            },
+            "pricing": {
+                "title": "Hợp tác & Báo giá",
+                "description": "Liên hệ ngay để nhận tư vấn và báo giá."
+            },
+            "headquarters": {
+                "title": "Trụ sở chính",
+                "description": "Tầng 6, tòa Golden Field, 24 Nguyễn Cơ Thạch, Phường Cầu Diễn, Quận Nam Từ Liêm, Hà Nội.\nEmail: <a href='info@katechvn.com' className='hover:text-[#CC0000] dark:text-white dark:hover:text-[#FF6B6B]'> info@katechvn.com</a>\nHotline: 096 647 9896"
+            }
+        },
+        "form": {
+            "title": "Liên hệ",
+            "description": "Liên hệ với Katech ngay hôm nay! Chúng tôi sẵn sàng lắng nghe và cung cấp giải pháp phù hợp nhất cho bạn.",
+            "fullName": "Họ tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Email",
+            "message": "Nội dung yêu cầu",
+            "submit": "Gửi yêu cầu",
+            "selectInterest": "Nội dung quan tâm",
+            "no-options": "Không có tùy chọn nào"
+        }
+    },
+    "service-solution": {
+        "title": "Đồng hành số hoá, kiến tạo tương lai",
+        "technology-section": {
+            "ai_ml": {
+                "title": "Công nghệ AI & Machine Learning",
+                "description": "Tích hợp trí tuệ nhân tạo để phân tích dữ liệu và tối ưu hóa doanh nghiệp."
+            },
+            "big_data": {
+                "title": "Dữ liệu lớn (Big Data Analytics)",
+                "description": "Khai thác dữ liệu chuyên sâu để hỗ trợ ra quyết định chiến lược."
+            },
+            "multi_platform": {
+                "title": "Phát triển phần mềm đa nền tảng",
+                "description": "Xây dựng ứng dụng cho Web, Mobile và hệ thống doanh nghiệp."
+            },
+            "cloud_it": {
+                "title": "Điện toán đám mây & Hạ tầng CNTT",
+                "description": "Cung cấp giải pháp Cloud, bảo mật và hệ thống vận hành tối ưu."
+            }
+        },
+        "service-solutions-section":{
+            "title": "Giải pháp dịch vụ"
+        }
+    },
+    "case-study": {
+        "introduce-section": {
+            "title": "Khách hàng đã tối ưu doanh nghiệp cùng Katech như thế nào?",
+            "content": "Konan – Trợ lý AI thông minh cho doanh nghiệp. Giúp tối ưu quy trình vận hành, tự động hóa tác vụ và nâng cao trải nghiệm khách hàng.",
+            "button-demo": "Dùng thử miễn phí",
+            "button-contact": "Liên hệ tư vấn"
+        },
+        "customer-section": {
+            "title": "Khách hàng tiêu biểu",
+            "card-1": {
+                "title": "THANG LONG CENTRAL CO., LTD",
+                "button": "Xem thêm",
+                "content": "Xây dựng website ngành hàng không.",
+                "image":"/images/thang-long.png",
+                "url":"/du-an/tu-bau-troi-toi-ma-lenh-website-hang-khong-hieu-suat-cao"
+            },
+            "card-2": {
+                "title": "Công ty Cổ phần CMC Consulting",
+                "button": "Xem thêm",
+                "content": "Xây dựng và triển khai phần mềm SAP.",
+                "image":"/images/cmc.png"
+
+            },
+            "card-3": {
+                "title": "Công ty Máy tính Minh Châu",
+                "button": "Xem thêm",
+                "content": "Xây dựng phần mềm kiểm soát truy cập.",
+                "image":"/images/minh-chau.png"
+            }
+        },
+        "comment-customer": {
+            "title": "Những gì khách hàng của chúng tôi nói"
+        }
+    },
+    "news": {
+        "related-news": {
+            "title": "Bài viết liên quan"
+        },
+        "trending-section": {
+            "title": "Xu hướng"
+        },
+        "synthetic-section": {
+            "title": "Tổng hợp"
+        }
+    },
+    "page-not-found": {
+        "title": "404 Không tìm thấy trang",
+        "description": "Trang bạn đang tìm kiếm có thể đã bị xóa, đã thay đổi tên, hoặc tạm thời không khả dụng.",
+        "button": "Về trang chủ"
+    },
+    "chat-bot": {
+        "defaultMessage": "Xin chào! Rất vui được hỗ trợ bạn. Bạn cần thông tin gì về Katech? Chúng tôi chuyên cung cấp các giải pháp công nghệ thông minh, tối ưu hóa trải nghiệm người dùng, và luôn đặt khách hàng làm trọng tâm. Hãy cho chúng tôi biết bạn cần gì nhé!",
+        "placeholder-input": "Gõ tin nhắn...",
+        "errorMessage": "Lỗi gửi tin nhắn. Vui lòng thử lại!"
+    }
+}
