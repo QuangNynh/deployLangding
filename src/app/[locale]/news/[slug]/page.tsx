@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: NewsPageProps): Promise<Metad
             url: `https://katech.vn/${locale}/news/${slug}`,
             images: [
                 {
-                    url: news.urlBanner || 'https://www.katech.vn/images/logo.png',
+                    url: news.avatar || 'https://www.katech.vn/images/logo.png',
                     width: 1200,
                     height: 630,
                     alt: news.title,
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: NewsPageProps): Promise<Metad
             card: 'summary_large_image',
             title: news.title,
             description: news.shortDescription || news.content.slice(0, 160),
-            images: [news.urlBanner || 'https://www.katech.vn/images/logo.png'],
+            images: [news.avatar || 'https://www.katech.vn/images/logo.png'],
         },
     };
 }
