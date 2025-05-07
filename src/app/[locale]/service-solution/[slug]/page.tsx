@@ -1,10 +1,9 @@
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { ServiceSolutionDetailClient } from '@/components/service-solution/ServiceSolutionDetailClient';
 import { serviceSolutionService } from '@/services/serviceConclusionService';
 import { Locale } from '@/types/common';
 import { ServiceSolutionType } from '@/types/service-solution';
-import { ServiceSolutionDetailClient } from '@/components/service-solution/ServiceSolutionDetailClient';
-import { headers } from 'next/headers';
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 interface ServiceSolutionsPageProps {
     params: Promise<{ slug: string; locale: Locale }>;
@@ -25,16 +24,9 @@ async function fetchServiceSolutionDetail(
 }
 
 // Hàm generateMetadata để tạo metadata động
-export async function generateMetadata({
-    params,
-}: ServiceSolutionsPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: ServiceSolutionsPageProps): Promise<Metadata> {
     const { slug, locale } = await params;
     const serviceSolution = await fetchServiceSolutionDetail(slug, locale);
-    const headersList = headers();
-    const host = (await headersList).get('host');
-    const protocol = 'https';
-    const baseUrl = `${protocol}://${host}`;
-    const pageUrl = `${baseUrl}/service-solution/${slug}`;
 
     if (!serviceSolution) {
         return {
@@ -50,10 +42,10 @@ export async function generateMetadata({
             title: serviceSolution.name,
             description:
                 serviceSolution.shortDescription || serviceSolution.description.slice(0, 160),
-            url: `${pageUrl}`,
+            url: `https://katech.vn/${locale}/service-solution/${slug}`,
             images: [
                 {
-                    url: serviceSolution.urlBanner || (process.env.NEXT_PUBLIC_LOGO_URL as string),
+                    url: serviceSolution.thumbnailUrl || 'https://www.katech.vn/images/logo.png',
                     width: 1200,
                     height: 630,
                     alt: serviceSolution.name,
@@ -66,7 +58,7 @@ export async function generateMetadata({
             title: serviceSolution.name,
             description:
                 serviceSolution.shortDescription || serviceSolution.description.slice(0, 160),
-            images: [serviceSolution.urlBanner || (process.env.NEXT_PUBLIC_LOGO_URL as string)],
+            images: [serviceSolution.thumbnailUrl || 'https://www.katech.vn/images/logo.png'],
         },
     };
 }
